@@ -9,7 +9,7 @@ export default function Hero({ heroRef }) {
       className="relative min-h-[85vh] flex flex-col justify-center items-stretch overflow-hidden"
     >
       {/* Background Image Container - Stays edge-to-edge */}
-      <div className="absolute inset-0 z-0">
+      {/* <div className="absolute inset-0 z-0">
         <Image 
           src="/Images/FileStill_1.png" 
           alt="Background graphics" 
@@ -19,7 +19,7 @@ export default function Hero({ heroRef }) {
           className="object-cover opacity-30 pointer-events-none" 
         />
         <div className="absolute inset-0 bg-linear-to-b from-white/10 via-white to-white" />
-      </div>
+      </div> */}
 
       {/* Grid Alignment Wrapper - Aligns perfectly with your Navbar and Selected Work */}
       <div className="relative z-10 max-w-6xl mx-auto px-6 w-full flex flex-col items-start text-left">
