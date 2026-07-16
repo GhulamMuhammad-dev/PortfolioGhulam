@@ -11,11 +11,12 @@ export default function GalleryCard({ item }) {
           src={item.src}
           alt={item.title}
           fill
+          quality={90} // Add this line (values from 1 to 100)
           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
           className="object-cover transition-transform duration-700 group-hover:scale-105"
-          unoptimized={item.type === "gif"} // Keeps GIFs animated natively
+          unoptimized={item.type === "gif"}
         />
-        
+
         {/* GIF/Still Indicator Badge */}
         <span className="absolute top-3 left-3 bg-brand-dark-text/80 backdrop-blur-md text-white text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">
           {item.type}
@@ -30,8 +31,8 @@ export default function GalleryCard({ item }) {
         {item.tags && (
           <div className="flex flex-wrap gap-1.5 mt-2.5">
             {item.tags.map((tag, idx) => (
-              <span 
-                key={idx} 
+              <span
+                key={idx}
                 className="text-[10px] bg-gray-100 text-brand-sub-text px-2 py-0.5 rounded font-medium"
               >
                 #{tag}
