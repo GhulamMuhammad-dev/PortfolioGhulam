@@ -1,0 +1,49 @@
+/* 1. Imports at the absolute top */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap');
+@import "tailwindcss";
+
+
+/* 2. Theme Customization */
+@theme {
+  /* --- CUSTOM FONTS --- */
+  --font-sans: "Inter", sans-serif;
+  --font-display: "Inter", sans-serif;
+
+  /* --- BRAND COLOR SYSTEM --- */
+  --color-brand-bg: #ffffff;
+  --color-brand-dark-text: #0d0d0d;
+  --color-brand-sub-text: #555555;
+  --color-brand-green: #7eb38d;
+  --color-brand-green-hover: #6a9c77;
+  --color-brand-card-bg: #f9f9f9;
+  
+  /* --- DESIGN SYSTEM TRANSITIONS --- */
+  --transition-custom: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+/* 3. Base Custom Rules */
+@layer base {
+  body {
+    background-color: var(--color-brand-bg);
+    color: var(--color-brand-dark-text);
+    font-family: var(--font-sans);
+    overflow-x: hidden;
+    letter-spacing: -0.025em; /* Applies tight kerning site-wide */
+  }
+}
+
+/* Base Headings Setup (Bold, Tight leading & kerning) */
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  font-weight: 800; /* Extra Bold for high impact */
+  letter-spacing: -0.05em; /* Extra tight tracking for large headings */
+  line-height: 1.1; /* Tight leading */
+  text-wrap: balance;
+}
+
+p {
+  font-family: var(--font-sans);
+  font-weight: 400; /* Inter Regular */
+  letter-spacing: -0.01em;
+  line-height: 1.4; /* Clean but compact leading for body text */
+}
