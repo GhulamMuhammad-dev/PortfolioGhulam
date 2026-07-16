@@ -11,10 +11,9 @@ export default function GalleryCard({ item }) {
           src={item.src}
           alt={item.title}
           fill
-          quality={90} // Add this line (values from 1 to 100)
-          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+          // We set this to true for all media so Next.js serves the raw, high-res file
+          unoptimized={true} 
           className="object-cover transition-transform duration-700 group-hover:scale-105"
-          unoptimized={item.type === "gif"}
         />
 
         {/* GIF/Still Indicator Badge */}
