@@ -34,7 +34,9 @@ export default function Hero({ heroRef }) {
           </p>
           <div className="animate-hero mt-10">
             <a 
-              href="mailto:ghulammuhammad.dev@gmail.com" 
+               href="https://mail.google.com/mail/?view=cm&fs=1&to=ghulammuhammad.dev@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-8 py-4 bg-brand-green text-white font-bold rounded hover:bg-brand-green-hover shadow-lg shadow-brand-green/10 transition-all duration-300 inline-block transform hover:-translate-y-1"
             >
               Let's Talk

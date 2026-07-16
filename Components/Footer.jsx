@@ -18,8 +18,11 @@ export default function Footer({ footerRef }) {
         <div className="flex flex-col md:items-end justify-center gap-8">
           <div className="text-left md:text-right">
             <p className="text-lg opacity-90 mb-4 font-normal">Let's create a story that turns understanding into growth.</p>
+            {/* Updated "Contact Me" button targeting Gmail in a new tab */}
             <a 
-              href="mailto:ghulammuhammad.dev@gmail.com"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=ghulammuhammad.dev@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-block px-8 py-4 bg-white text-brand-dark-text font-bold rounded hover:bg-gray-100 transition-all duration-300 shadow-md transform hover:-translate-y-1"
             >
               Contact Me
@@ -31,14 +34,30 @@ export default function Footer({ footerRef }) {
             <span className="font-mono bg-brand-dark-text text-white px-3 py-1.5 rounded text-xs font-semibold">
               ghulammuhammad.dev@gmail.com
             </span>
+            {/* Updated social links to open in a new tab */}
             <div className="flex gap-4">
-              <a href="https://linkedin.com" className="hover:text-white transition-colors">
+              <a 
+                href="https://www.linkedin.com/in/ghulammuhammad-ta/" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-white transition-colors"
+              >
                 <LinkedInIcon className="w-5 h-5" />
               </a>
-              <a href="https://x.com" className="hover:text-white transition-colors">
+              <a 
+                href="https://x.com/ghula_m_uhammad" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-white transition-colors"
+              >
                 <XIcon className="w-5 h-5" />
               </a>
-              <a href="https://github.com" className="hover:text-white transition-colors">
+              <a 
+                href="https://github.com" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-white transition-colors"
+              >
                 <InstagramIcon className="w-5 h-5" />
               </a>
             </div>

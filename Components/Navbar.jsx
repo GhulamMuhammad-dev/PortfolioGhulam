@@ -102,7 +102,7 @@ export default function Navbar() {
             {/* Social Icons */}
             <div className="flex gap-4 text-brand-sub-text">
               <a 
-                href="https://linkedin.com" 
+                href="https://www.linkedin.com/in/ghulammuhammad-ta/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="hover:text-brand-dark-text transition-colors duration-300"
@@ -111,7 +111,7 @@ export default function Navbar() {
                 <LinkedInIcon className="w-5 h-5" />
               </a>
               <a 
-                href="https://x.com" 
+                href="https://x.com/ghula_m_uhammad" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="hover:text-brand-dark-text transition-colors duration-300"
@@ -131,9 +131,11 @@ export default function Navbar() {
             </div>
           </nav>
           
-          {/* Action CTA Button */}
+          {/* Action CTA Button (Desktop) - Upgraded to target Gmail */}
           <a 
-            href="mailto:ghulammuhammad.dev@gmail.com" 
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=ghulammuhammad.dev@gmail.com" 
+            target="_blank"
+            rel="noopener noreferrer"
             className="px-4 py-2 border border-brand-green text-brand-green text-xs font-bold rounded hover:bg-brand-green hover:text-white transition-all duration-300 tracking-wider uppercase"
           >
             Let's Talk
@@ -176,7 +178,7 @@ export default function Navbar() {
           {/* Social Icons list in Mobile layout */}
           <div className="flex gap-6 text-brand-sub-text">
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/ghulammuhammad-ta/" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="hover:text-brand-green transition-colors duration-300"
@@ -185,7 +187,7 @@ export default function Navbar() {
               <LinkedInIcon className="w-6 h-6" />
             </a>
             <a 
-              href="https://x.com" 
+              href="https://x.com/ghula_m_uhammad" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="hover:text-brand-green transition-colors duration-300"
@@ -204,9 +206,11 @@ export default function Navbar() {
             </a>
           </div>
 
-          {/* CTA Mobile Button */}
+          {/* CTA Mobile Button - Upgraded to target Gmail */}
           <a 
-            href="mailto:ghulammuhammad.dev@gmail.com" 
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=ghulammuhammad.dev@gmail.com" 
+            target="_blank"
+            rel="noopener noreferrer"
             className="w-full max-w-xs mt-2 px-6 py-3 border-2 border-brand-green text-brand-green text-xs font-bold rounded hover:bg-brand-green hover:text-white transition-all duration-300 tracking-widest uppercase text-center"
           >
             Let's Talk
