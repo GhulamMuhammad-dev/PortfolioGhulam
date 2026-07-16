@@ -5,7 +5,7 @@ export const galleryItems = [
     id: "1",
     title: "Stylized Sci-Fi Console",
     type: "still", // 'still' or 'gif'
-    src: "/Images/gallery/sci-fi-console.jpg", // Replace with your actual asset paths
+    src: "/Images/FileStill_1.png", // Replace with your actual asset paths
     aspectRatio: "aspect-[4/5]", // Controls the Pinterest-style variation
     tags: ["3D Modeling", "Blender", "Stylized"],
   },
@@ -13,7 +13,7 @@ export const galleryItems = [
     id: "2",
     title: "Data Flow Animation Loop",
     type: "gif",
-    src: "/Images/gallery/data-flow.gif",
+    src: "/Images/FileStill_1.png",
     aspectRatio: "aspect-[9/16]", // Tall portrait layout
     tags: ["Motion Design", "After Effects"],
   },
@@ -21,7 +21,7 @@ export const galleryItems = [
     id: "3",
     title: "Character Walk Cycle",
     type: "gif",
-    src: "/Images/gallery/character-walk.gif",
+    src: "/Images/FileStill_1.png",
     aspectRatio: "aspect-[1/1]", // Square layout
     tags: ["3D Animation", "Character"],
   },
@@ -29,7 +29,7 @@ export const galleryItems = [
     id: "4",
     title: "Rusty Mech Rendering",
     type: "still",
-    src: "/Images/gallery/rusty-mech.jpg",
+    src: "/Images/FileStill_1.png",
     aspectRatio: "aspect-[3/4]",
     tags: ["Texturing", "Substance Painter"],
   },
@@ -37,7 +37,7 @@ export const galleryItems = [
     id: "5",
     title: "UI Scorecard Motion Concept",
     type: "gif",
-    src: "/Images/gallery/scorecard-ui.gif",
+    src: "/Images/FileStill_1.png",
     aspectRatio: "aspect-[4/3]", // Wide layout
     tags: ["UI Design", "Motion Design"],
   },

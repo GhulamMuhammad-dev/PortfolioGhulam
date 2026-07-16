@@ -4,8 +4,8 @@ import Image from "next/image";
 
 export default function Portfolio({ projectsRef }) {
   const projects = [
-    { id: 1, title: "The title of the project", img: "/Images/3Dgraphics1.png" },
-    { id: 2, title: "The title of the project", img: "/Images/3Dgraphics2.png" },
+    { id: 1, title: "The title of the project", img: "/Images/FileStill_1.png" },
+    { id: 2, title: "The title of the project", img: "/Images/FileStill_1.png" },
   ];
 
   return (
