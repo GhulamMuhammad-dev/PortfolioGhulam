@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function GalleryCard({ item }) {
   return (
-    <div className="break-inside-avoid mb-6 group relative overflow-hidden rounded-xl bg-brand-card-bg border border-gray-100 transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+    <div className="break-inside-avoid mb-2 group relative overflow-hidden rounded-sm bg-brand-card-bg border border-gray-100 transition-all duration-300  hover:-translate-y-1">
       {/* Visual media container with dynamic aspect ratio */}
       <div className={`relative w-full ${item.aspectRatio} overflow-hidden`}>
         <Image
@@ -17,13 +17,13 @@ export default function GalleryCard({ item }) {
         />
 
         {/* GIF/Still Indicator Badge */}
-        <span className="absolute top-3 left-3 bg-brand-dark-text/80 backdrop-blur-md text-white text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">
+        {/* <span className="absolute top-3 left-3 bg-brand-dark-text/80 backdrop-blur-md text-white text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">
           {item.type}
-        </span>
+        </span> */}
       </div>
 
       {/* Dynamic Hover / Detail Overlay */}
-      <div className="p-4 bg-white border-t border-gray-50">
+      {/* <div className="p-4 bg-white border-t border-gray-50">
         <h3 className="text-base font-bold text-brand-dark-text leading-tight tracking-tight">
           {item.title}
         </h3>
@@ -39,7 +39,7 @@ export default function GalleryCard({ item }) {
             ))}
           </div>
         )}
-      </div>
+      </div> */}
     </div>
   );
 }

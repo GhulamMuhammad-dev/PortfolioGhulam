@@ -21,7 +21,7 @@ export default function GalleryPage() {
 
       {/* Pinterest Masonry Grid Container */}
       <section className="max-w-6xl mx-auto px-6 pb-24">
-        <div className="columns-1 sm:columns-2 lg:columns-3 gap-6 [column-fill:balance] w-full">
+        <div className="columns-1 sm:columns-2 lg:columns-3 gap-2 [column-fill:balance] w-full">
           {galleryItems.map((item) => (
             <GalleryCard key={item.id} item={item} />
           ))}

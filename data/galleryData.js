@@ -11,11 +11,11 @@ export const galleryItems = [
   },
   {
     id: "2",
-    title: "Data Flow Animation Loop",
+    title: "Text Type Animation",
     type: "gif",
-    src: "/Images/FileStill_1.png",
-    aspectRatio: "aspect-[9/16]", // Tall portrait layout
-    tags: ["Motion Design", "After Effects"],
+    src: "/videos/textMove.gif",
+    aspectRatio: "aspect-[16/9]", // Tall portrait layout
+    tags: ["Motion Design", "Blender"],
   },
   {
     id: "3",
