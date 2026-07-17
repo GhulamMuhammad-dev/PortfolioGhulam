@@ -3,9 +3,9 @@
 export const galleryItems = [
   {
     id: "1",
-    title: "Stylized Sci-Fi Console",
+    title: "Folders 3D Motion",
     type: "still", // 'still' or 'gif'
-    src: "/Images/FileStill_1.png", // Replace with your actual asset paths
+    src: "/Images/folderIconsStillRender.png", // Replace with your actual asset paths
     aspectRatio: "aspect-[4/5]", // Controls the Pinterest-style variation
     tags: ["3D Modeling", "Blender", "Stylized"],
   },
@@ -19,9 +19,9 @@ export const galleryItems = [
   },
   {
     id: "3",
-    title: "Character Walk Cycle",
-    type: "gif",
-    src: "/Images/FileStill_1.png",
+    title: "Folder 3D Motion",
+    type: "still",
+    src: "/Images/folderIconsStillRender2.png",
     aspectRatio: "aspect-[1/1]", // Square layout
     tags: ["3D Animation", "Character"],
   },
