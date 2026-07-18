@@ -36,9 +36,34 @@ export const galleryItems = [
   {
     id: "5",
     title: "UI Scorecard Motion Concept",
-    type: "gif",
-    src: "/Images/FileStill_1.png",
-    aspectRatio: "aspect-[4/3]", // Wide layout
+    type: "still",
+    src: "/Images/PromptBarUI_1.png",
+    aspectRatio: "aspect-[16/9]", // Wide layout
+    tags: ["UI Design", "Motion Design"],
+  },
+
+  {
+    id: "6",
+    title: "UI Scorecard Motion Concept",
+    type: "still",
+    src: "/Images/HeartUIStill_1.png",
+    aspectRatio: "aspect-[16/9]", // Wide layout
+    tags: ["UI Design", "Motion Design"],
+  },
+  {
+    id: "7",
+    title: "UI Scorecard Motion Concept",
+    type: "still",
+    src: "/Images/HeartUIStill_2.png",
+    aspectRatio: "aspect-[16/9]", // Wide layout
+    tags: ["UI Design", "Motion Design"],
+  },
+  {
+    id: "8",
+    title: "UI Scorecard Motion Concept",
+    type: "still",
+    src: "/Images/HeartUIStill_3.png",
+    aspectRatio: "aspect-[16/9]", // Wide layout
     tags: ["UI Design", "Motion Design"],
   },
 ];
