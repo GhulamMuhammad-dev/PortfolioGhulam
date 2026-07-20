@@ -66,4 +66,12 @@ export const galleryItems = [
     aspectRatio: "aspect-[16/9]", // Wide layout
     tags: ["UI Design", "Motion Design"],
   },
+  {
+    id: "9",
+    title: "UI Scorecard Motion Concept",
+    type: "gif",
+    src: "/videos/dataMoving.gif",
+    aspectRatio: "aspect-[16/9]", // Wide layout
+    tags: ["UI Design", "Motion Design"],
+  },
 ];
