@@ -74,4 +74,44 @@ export const galleryItems = [
     aspectRatio: "aspect-[16/9]", // Wide layout
     tags: ["UI Design", "Motion Design"],
   },
+  {
+    id: "10",
+    title: "UI Scorecard Motion Concept",
+    type: "gif",
+    src: "/videos/motionGraphic_1.gif",
+    aspectRatio: "aspect-[16/9]", // Wide layout
+    tags: ["UI Design", "Motion Design"],
+  },
+  {
+    id: "11",
+    title: "UI Scorecard Motion Concept",
+    type: "still",
+    src: "/images/microSoft_still1.png",
+    aspectRatio: "aspect-[16/9]", // Wide layout
+    tags: ["UI Design", "Motion Design"],
+  },
+  {
+    id: "12",
+    title: "UI Scorecard Motion Concept",
+    type: "still",
+    src: "/images/microSoft_still2.png",
+    aspectRatio: "aspect-[16/9]", // Wide layout
+    tags: ["UI Design", "Motion Design"],
+  },
+  {
+    id: "13",
+    title: "UI Scorecard Motion Concept",
+    type: "gif",
+    src: "/videos/SubSurface_Ball.gif",
+    aspectRatio: "aspect-[1/1]", // Wide layout
+    tags: ["UI Design", "Motion Design"],
+  },
+  {
+    id: "14",
+    title: "UI Scorecard Motion Concept",
+    type: "still",
+    src: "/images/subsurfaceBalls_1.png",
+    aspectRatio: "aspect-[1/1]", // Wide layout
+    tags: ["UI Design", "Motion Design"],
+  },
 ];
