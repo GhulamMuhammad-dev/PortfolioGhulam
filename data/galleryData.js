@@ -86,7 +86,7 @@ export const galleryItems = [
     id: "11",
     title: "UI Scorecard Motion Concept",
     type: "still",
-    src: "/images/microSoft_still1.png",
+    src: "/Images/microSoft_still1.png",
     aspectRatio: "aspect-[16/9]", // Wide layout
     tags: ["UI Design", "Motion Design"],
   },
@@ -94,7 +94,7 @@ export const galleryItems = [
     id: "12",
     title: "UI Scorecard Motion Concept",
     type: "still",
-    src: "/images/microSoft_still2.png",
+    src: "/Images/microSoft_still2.png",
     aspectRatio: "aspect-[16/9]", // Wide layout
     tags: ["UI Design", "Motion Design"],
   },
@@ -110,7 +110,7 @@ export const galleryItems = [
     id: "14",
     title: "UI Scorecard Motion Concept",
     type: "still",
-    src: "/images/subsurfaceBalls_1.png",
+    src: "/Images/subsurfaceBalls_1.png",
     aspectRatio: "aspect-[1/1]", // Wide layout
     tags: ["UI Design", "Motion Design"],
   },
